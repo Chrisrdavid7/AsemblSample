@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8915B65421C7C9C4003FC56A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915B65321C7C9C4003FC56A /* ChatViewController.swift */; };
+		8915B65821C7CA16003FC56A /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915B65721C7CA16003FC56A /* NotificationsTableViewController.swift */; };
+		8915B65A21C7CA2D003FC56A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915B65921C7CA2D003FC56A /* ProfileViewController.swift */; };
+		8915B65C21C7CA49003FC56A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915B65B21C7CA49003FC56A /* FriendsViewController.swift */; };
+		8915B65E21C7CA53003FC56A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915B65D21C7CA53003FC56A /* SettingsViewController.swift */; };
 		89EC4F2621C5E4E80035A4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F2521C5E4E80035A4A3 /* AppDelegate.swift */; };
-		89EC4F2821C5E4E80035A4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F2721C5E4E80035A4A3 /* ViewController.swift */; };
 		89EC4F2B21C5E4E80035A4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EC4F2921C5E4E80035A4A3 /* Main.storyboard */; };
 		89EC4F2D21C5E4EA0035A4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EC4F2C21C5E4EA0035A4A3 /* Assets.xcassets */; };
 		89EC4F3021C5E4EA0035A4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EC4F2E21C5E4EA0035A4A3 /* LaunchScreen.storyboard */; };
 		89EC4F3B21C5E4EB0035A4A3 /* AsemblTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F3A21C5E4EB0035A4A3 /* AsemblTests.swift */; };
 		89EC4F4621C5E4EB0035A4A3 /* AsemblUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F4521C5E4EB0035A4A3 /* AsemblUITests.swift */; };
+		89EC4F5A21C5F4BE0035A4A3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F5921C5F4BE0035A4A3 /* SWRevealViewController.m */; };
+		89EC4F5C21C5F53B0035A4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F5B21C5F53B0035A4A3 /* ViewController.swift */; };
+		89EC4F5E21C6002B0035A4A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F5D21C6002B0035A4A3 /* MenuViewController.swift */; };
+		89EC4F6321C7B0020035A4A3 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC4F6121C7B0020035A4A3 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8915B65321C7C9C4003FC56A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8915B65721C7CA16003FC56A /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		8915B65921C7CA2D003FC56A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8915B65B21C7CA49003FC56A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		8915B65D21C7CA53003FC56A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		89EC4F2221C5E4E80035A4A3 /* Asembl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asembl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EC4F2521C5E4E80035A4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89EC4F2721C5E4E80035A4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89EC4F2A21C5E4E80035A4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89EC4F2C21C5E4EA0035A4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89EC4F2F21C5E4EA0035A4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		89EC4F4121C5E4EB0035A4A3 /* AsemblUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsemblUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EC4F4521C5E4EB0035A4A3 /* AsemblUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsemblUITests.swift; sourceTree = "<group>"; };
 		89EC4F4721C5E4EB0035A4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EC4F5721C5F4BD0035A4A3 /* Asembl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asembl-Bridging-Header.h"; sourceTree = "<group>"; };
+		89EC4F5821C5F4BE0035A4A3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Downloads/SWRevealViewControllers/SWRevealViewController.h; sourceTree = "<group>"; };
+		89EC4F5921C5F4BE0035A4A3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Downloads/SWRevealViewControllers/SWRevealViewController.m; sourceTree = "<group>"; };
+		89EC4F5B21C5F53B0035A4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89EC4F5D21C6002B0035A4A3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		89EC4F6121C7B0020035A4A3 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +116,21 @@
 			isa = PBXGroup;
 			children = (
 				89EC4F2521C5E4E80035A4A3 /* AppDelegate.swift */,
-				89EC4F2721C5E4E80035A4A3 /* ViewController.swift */,
 				89EC4F2921C5E4E80035A4A3 /* Main.storyboard */,
 				89EC4F2C21C5E4EA0035A4A3 /* Assets.xcassets */,
 				89EC4F2E21C5E4EA0035A4A3 /* LaunchScreen.storyboard */,
+				89EC4F5D21C6002B0035A4A3 /* MenuViewController.swift */,
+				89EC4F6121C7B0020035A4A3 /* MenuTableViewCell.swift */,
+				89EC4F5B21C5F53B0035A4A3 /* ViewController.swift */,
+				8915B65721C7CA16003FC56A /* NotificationsTableViewController.swift */,
+				8915B65321C7C9C4003FC56A /* ChatViewController.swift */,
+				8915B65921C7CA2D003FC56A /* ProfileViewController.swift */,
+				8915B65B21C7CA49003FC56A /* FriendsViewController.swift */,
+				8915B65D21C7CA53003FC56A /* SettingsViewController.swift */,
 				89EC4F3121C5E4EA0035A4A3 /* Info.plist */,
+				89EC4F5821C5F4BE0035A4A3 /* SWRevealViewController.h */,
+				89EC4F5921C5F4BE0035A4A3 /* SWRevealViewController.m */,
+				89EC4F5721C5F4BD0035A4A3 /* Asembl-Bridging-Header.h */,
 			);
 			path = Asembl;
 			sourceTree = "<group>";
@@ -193,6 +221,7 @@
 				TargetAttributes = {
 					89EC4F2121C5E4E80035A4A3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					89EC4F3521C5E4EB0035A4A3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -256,8 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EC4F2821C5E4E80035A4A3 /* ViewController.swift in Sources */,
+				89EC4F5C21C5F53B0035A4A3 /* ViewController.swift in Sources */,
+				8915B65C21C7CA49003FC56A /* FriendsViewController.swift in Sources */,
 				89EC4F2621C5E4E80035A4A3 /* AppDelegate.swift in Sources */,
+				8915B65E21C7CA53003FC56A /* SettingsViewController.swift in Sources */,
+				89EC4F5A21C5F4BE0035A4A3 /* SWRevealViewController.m in Sources */,
+				8915B65421C7C9C4003FC56A /* ChatViewController.swift in Sources */,
+				89EC4F5E21C6002B0035A4A3 /* MenuViewController.swift in Sources */,
+				89EC4F6321C7B0020035A4A3 /* MenuTableViewCell.swift in Sources */,
+				8915B65A21C7CA2D003FC56A /* ProfileViewController.swift in Sources */,
+				8915B65821C7CA16003FC56A /* NotificationsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,34 +468,43 @@
 		89EC4F4B21C5E4EB0035A4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Asembl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chrisdavid.Asembl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Asembl/Asembl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		89EC4F4C21C5E4EB0035A4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Asembl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = chrisdavid.Asembl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Asembl/Asembl-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

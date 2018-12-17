@@ -31,22 +31,20 @@ class ViewController: UIViewController {
         plusButton.layer.cornerRadius = 25
         plusButton.clipsToBounds = true
         
-        
-        
         //More Map
         
-        mapView.delegate = self as? MKMapViewDelegate
+        // set initial location in Manhattan
+        let initialLocation = CLLocation(latitude: 40.758896, longitude: -73.985130)
         
-        locationManager = CLLocationManager()
-        locationManager.delegate = self as? CLLocationManagerDelegate
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
-        // Check for Location Services
-        
-        if CLLocationManager.locationServicesEnabled() {
-            locationManager.requestWhenInUseAuthorization()
-            locationManager.startUpdatingLocation()
-        }
+        centerMapOnLocation(location: initialLocation)
+    }
+    
+    
+    let regionRadius: CLLocationDistance = 9000
+    func centerMapOnLocation(location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
+                                                  latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
+        mapView.setRegion(coordinateRegion, animated: true)
     }
     
     
